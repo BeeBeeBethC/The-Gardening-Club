@@ -1,3 +1,97 @@
+/*Google Font Import always goes at the top of stylesheet*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral+SC:wght@600&display=swap');
+
+/*Asterisk wildcard element, targets all elements of the page*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body element*/
 body {
-    background-color: #d1c092;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebfecf;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+}
+
+/*header element*/
+header {
+    background-color: darkolivegreen;
+    color: #ebfecf;
+    padding: 10px 10px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    box-shadow: 4px 2px 20px 0px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+/*controls text colour*/
+header a {
+    text-decoration: none;
+    color: limegreen;
+}
+
+.selected {
+    text-decoration: underline;
+    color: rgb(248, 158, 235);
+}
+
+#menu {
+    font-size: medium;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+/*navbar styles including dropdown toggle across all platforms*/
+nav {
+    position: absolute;
+    /*controls background colour of dropdown*/
+    background-color: darkolivegreen;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 4px 2px 20px 0px;
+    display: none;
+    top: 100%;
+}
+
+/*navbar toggle function styles*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
+}
+
+h1 {
+    font-family: "Spectral SC", serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: limegreen;
+}
+
+/*main element*/
+main {
+    background-color: #ebfecf;
+    flex: 1 0 auto;
+}
+
+/*footer element*/
+footer {
+    background-color: darkolivegreen;
+    color: #ebfecf;
 }
