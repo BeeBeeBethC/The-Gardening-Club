@@ -30,10 +30,12 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 /*controls text colour*/
 header a {
     text-decoration: none;
     color: limegreen;
+    font-size: 120%;
 }
 
 .selected {
@@ -58,7 +60,7 @@ nav {
     background-color: darkolivegreen;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     box-shadow: 4px 2px 20px 0px;
     display: none;
     top: 100%;
@@ -74,7 +76,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h1 {
@@ -86,12 +88,53 @@ h1 {
 
 /*main element*/
 main {
+    flex: 1 auto;
     background-color: #ebfecf;
-    flex: 1 0 auto;
+    display: flex;
+    margin-top: 197px;
 }
 
 /*footer element*/
 footer {
     background-color: darkolivegreen;
     color: #ebfecf;
+}
+
+/*media queries to adjust mobile design to larger screen sizes*/
+@media screen and (min-width: 768px) {
+
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+    
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+}
+
+/*larger devices 992px and upwards*/
+@media screen and (min-width: 992px) {
+    
+    #menu > a:hover {
+        border-bottom: 2px solid rgb(248, 158, 235);
+    }
 }
