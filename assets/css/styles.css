@@ -19,7 +19,7 @@ body {
 
 /*header element*/
 header {
-    background-color: darkolivegreen;
+    background-color: #333E1D;
     color: #ebfecf;
     padding: 10px 10px;
     z-index: 99;
@@ -34,8 +34,8 @@ header {
 /*controls text colour*/
 header a {
     text-decoration: none;
-    color: limegreen;
-    font-size: 120%;
+    color: #ebfecf;
+    font-size: 160%;
 }
 
 .selected {
@@ -57,7 +57,7 @@ header a {
 nav {
     position: absolute;
     /*controls background colour of dropdown*/
-    background-color: darkolivegreen;
+    background-color: #333E1D;
     width: 100%;
     left: 0;
     padding: 1rem 1rem;
@@ -83,7 +83,7 @@ h1 {
     font-family: "Spectral SC", serif;
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: limegreen;
+    color: #ebfecf;
 }
 
 /*main element*/
@@ -95,9 +95,21 @@ main {
 }
 
 /*footer element*/
-footer {
-    background-color: darkolivegreen;
+#social-media {
+    list-style-type: none;
+    background-color: #333E1D;
     color: #ebfecf;
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-media i {
+    font-size: 150%;
+    padding:10px 10px 10px 10px;
+    margin: bottom 25px;
+    
 }
 
 /*media queries to adjust mobile design to larger screen sizes*/
@@ -123,7 +135,7 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-    
+
     #logo {
         font-size: 280%;
         line-height: 75px;
@@ -133,8 +145,20 @@ footer {
 
 /*larger devices 992px and upwards*/
 @media screen and (min-width: 992px) {
-    
-    #menu > a:hover {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    nav li a:hover {
         border-bottom: 2px solid rgb(248, 158, 235);
+    }
+
+    main {
+        margin-top: 135px;
     }
 }

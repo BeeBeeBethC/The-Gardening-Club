@@ -1,12 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!--indicates what document type it is-->
+<html lang="en"> <!--sets language to English-->
+<!--Head element, contains all meta data and search engine optimising tags as well as favicon links and style sheet links-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="..assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    <meta name="description"
+        content="The Gardening Club. club for gardeners, learning how to garden, brush up on gardening tips and expert advice">
+    <meta name="keywords" content="gardening, garden, outdoors, learning, club, seeds, plants, flowers">
+    <!--Title of Document-->
     <title>The Gardening Club</title>
+    <!--Favicon, the icon that shows up in the web tab-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
+<!--Body element, contains the initial landing page, logo and hero image-->
 <body>
-    <h1>This is a h1 heading</h1>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">The Gardening Club</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html" aria-label="return-home">Home</a></li>
+                    <li><a href="about-us.html" aria-label="learn-more-about-us" class="selected">About us</a></li>
+                    <li><a href="quick-tips.html" aria-label="go-to-our-quick-tips-page">Quick tips</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>Main content</main>
+
+    <footer>
+        <ul id="social-media" aria-label="our-social-media-sites">
+            <li><a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="visit-our-facebook-page(opens in new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="visit-our-twitter-page(opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="visit-our-instagram-page(opens in new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+    <!--Personalized font awesome kit-->
+    <script src="https://kit.fontawesome.com/7a4e6351e1.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
