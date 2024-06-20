@@ -13,8 +13,21 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ebfecf;
-    color: black;
+    color: #000000;
     font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Spectral SC", serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: rgb(235, 254, 207);
+}
+
+h2,h3 {
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: 1px;
+    color: rgb(235, 254, 207);
 }
 
 /*header element*/
@@ -25,7 +38,7 @@ header {
     z-index: 99;
     position: fixed;
     width: 100%;
-    box-shadow: 4px 2px 20px 0px black;
+    box-shadow: 0px 2px 0px 0px black;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -35,7 +48,7 @@ header {
 header a {
     text-decoration: none;
     color: #ebfecf;
-    font-size: 160%;
+    font-size: 100%;
 }
 
 .selected {
@@ -61,7 +74,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 1rem 1rem;
-    box-shadow: 4px 2px 20px 0px;
+    box-shadow: 0px 2px 0px 0px;
     display: none;
     top: 100%;
 }
@@ -79,37 +92,44 @@ nav {
     font-size: 2rem;
 }
 
-h1 {
-    font-family: "Spectral SC", serif;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    color: #ebfecf;
-}
-
 /*main element*/
 main {
     flex: 1 auto;
-    background-color: #ebfecf;
-    display: flex;
-    margin-top: 197px;
+    margin-top: 166px;
 }
-
+/*hero image styles*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/gardening-hero-image.jpg") no-repeat center center/cover;
+    position: relative;
+}
+/*The 'a' in rgba stands for alpha and controls opacicity of element*/
+#cover-text {
+    background-color: rgba(51, 62, 29, .8);
+    font-size: 90%;
+    position: absolute;
+    bottom:45px;
+    min-height: 150px;
+    width: 70%;
+    padding-top: 30px;
+    padding-left: 15px;
+    text-align: center;
+}
 /*footer element*/
 #social-media {
+    display: flex;
     list-style-type: none;
     background-color: #333E1D;
-    color: #ebfecf;
+    color: rgb(235, 254, 207);
     text-align: center;
     padding: 15px 0;
-    display: flex;
     justify-content: space-evenly;
 }
 
 #social-media i {
-    font-size: 150%;
-    padding:10px 10px 10px 10px;
+    padding:7px 7px 7px 7px;
     margin: bottom 25px;
-    
 }
 
 /*media queries to adjust mobile design to larger screen sizes*/
