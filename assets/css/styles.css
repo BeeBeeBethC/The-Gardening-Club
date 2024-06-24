@@ -24,7 +24,8 @@ h1 {
     color: rgb(235, 254, 207);
 }
 
-h2,h3 {
+h2,
+h3 {
     font-family: "PT Sans", sans-serif;
     letter-spacing: 1px;
     color: rgb(235, 254, 207);
@@ -68,7 +69,7 @@ header a {
 
 /*navbar styles including dropdown toggle across all platforms*/
 nav {
-    position: absolute;
+    position: sticky;
     /*controls background colour of dropdown*/
     background-color: #333E1D;
     width: 100%;
@@ -97,6 +98,7 @@ main {
     flex: 1 auto;
     margin-top: 166px;
 }
+
 /*hero image styles*/
 #hero {
     height: 600px;
@@ -104,18 +106,20 @@ main {
     background: url("../images/gardening-hero-image.jpg") no-repeat center center/cover;
     position: relative;
 }
+
 /*The 'a' in rgba stands for alpha and controls opacicity of element*/
 #cover-text {
     background-color: rgba(51, 62, 29, .8);
     font-size: 90%;
     position: absolute;
-    bottom:45px;
+    bottom: 45px;
     min-height: 150px;
     width: 70%;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-left: 15px;
     text-align: center;
 }
+
 /*footer element*/
 #social-media {
     display: flex;
@@ -128,7 +132,7 @@ main {
 }
 
 #social-media i {
-    padding:7px 7px 7px 7px;
+    padding: 7px 7px 7px 7px;
     margin: bottom 25px;
 }
 
@@ -161,6 +165,14 @@ main {
         line-height: 75px;
         margin: 0.5rem 0 0.5rem 0;
     }
+
+    /*hero image*/
+    #cover-text {
+        width: 350px;
+        right: 40px;
+        margin: 2px 2px 2px 2px;
+        text-align: center;
+    }
 }
 
 /*larger devices 992px and upwards*/
@@ -179,6 +191,14 @@ main {
     }
 
     main {
-        margin-top: 135px;
+        margin-top: 110px;
+    }
+
+    #cover-text {
+        width: 225px;
+        align-content: center;
+        font-size: large;
+        padding: 10px 10px 10px 10px;
+        bottom: 50px;
     }
 }
