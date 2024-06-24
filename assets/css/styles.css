@@ -24,18 +24,26 @@ h1 {
     color: rgb(235, 254, 207);
 }
 
-h2,
-h3 {
+h2 {
     font-family: "PT Sans", sans-serif;
     letter-spacing: 1px;
     color: rgb(235, 254, 207);
+    text-transform: capitalize;
+}
+
+h3,
+h4 {
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: 1px;
+    color: rgb(51, 62, 29);
+    text-transform: uppercase;
 }
 
 /*header element*/
 header {
-    background-color: #333E1D;
-    color: #ebfecf;
-    padding: 10px 10px;
+    background-color: rgb(51, 62, 29);
+    color: rgb(235, 254, 207);
+    padding: 4px 10px 10px 10px;
     z-index: 99;
     position: fixed;
     width: 100%;
@@ -49,7 +57,7 @@ header {
 header a {
     text-decoration: none;
     color: #ebfecf;
-    font-size: 100%;
+    font-size: 140%;
 }
 
 .selected {
@@ -63,13 +71,13 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
 /*navbar styles including dropdown toggle across all platforms*/
 nav {
-    position: sticky;
+    position: absolute;
     /*controls background colour of dropdown*/
     background-color: #333E1D;
     width: 100%;
@@ -99,6 +107,33 @@ main {
     margin-top: 166px;
 }
 
+#reasons {
+    width: 90%;
+    margin: 25px auto;
+}
+
+#reasons h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-mental > div,
+#benefits-physical > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-mental > p,
+#benefits-physical > p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #333E1D;
+    margin: 5px 0;
+}
+
 /*hero image styles*/
 #hero {
     height: 600px;
@@ -118,6 +153,23 @@ main {
     padding-top: 15px;
     padding-left: 15px;
     text-align: center;
+}
+
+#circle-cover-background {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/poppy.jpg") no-repeat top center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#reason-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 /*footer element*/
@@ -142,14 +194,22 @@ main {
     /*header*/
     nav {
         display: block;
-        position: relative;
+        position: sticky;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
 
+    header a {
+        text-decoration: none;
+        color: #ebfecf;
+        font-size: 140%;
+    }
+
     #menu {
         display: flex;
+        text-align: end;
+        font-size: large;
     }
 
     #menu>li {
@@ -173,6 +233,16 @@ main {
         margin: 2px 2px 2px 2px;
         text-align: center;
     }
+
+    /*benefit section*/
+    #reasons {
+        display: flex;
+        width: 90%;
+        height:90vh;
+        margin: 25px auto;
+        justify-content: space-evenly;
+        align-content: space-between;
+    }
 }
 
 /*larger devices 992px and upwards*/
@@ -180,7 +250,7 @@ main {
 
     nav {
         display: block;
-        position: relative;
+        position: sticky;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
@@ -190,8 +260,20 @@ main {
         border-bottom: 2px solid rgb(248, 158, 235);
     }
 
+    header a {
+        text-decoration: none;
+        color: #ebfecf;
+        font-size: 150%;
+    }
+
     main {
         margin-top: 110px;
+    }
+
+    #menu {
+        display: flex;
+        text-align: end;
+        font-size: xx-large;
     }
 
     #cover-text {
