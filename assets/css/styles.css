@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/*body element*/
+/*body element and main target headings*/
 body {
     min-height: 100vh;
     display: flex;
@@ -19,24 +19,36 @@ body {
 
 h1 {
     font-family: "Spectral SC", serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(235, 254, 207);
 }
 
 h2 {
     font-family: "PT Sans", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: rgb(235, 254, 207);
     text-transform: capitalize;
 }
 
-h3,
-h4 {
+h3 {
     font-family: "PT Sans", sans-serif;
     letter-spacing: 1px;
     color: rgb(51, 62, 29);
     text-transform: uppercase;
+}
+
+h4 {
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(51, 62, 29);
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(51, 62, 29);
 }
 
 /*header element*/
@@ -71,7 +83,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -89,7 +101,7 @@ nav {
 }
 
 /*navbar toggle function styles*/
-#nav-toggle:checked~nav {
+#nav-toggle:checked ~ nav {
     display: block;
 }
 
@@ -104,12 +116,14 @@ nav {
 /*main element*/
 main {
     flex: 1 auto;
-    margin-top: 166px;
+    margin-top: 200px;
 }
 
 #reasons {
+    display: flex;
+    flex-direction: column;
     width: 90%;
-    margin: 25px auto;
+    margin: 20px;
 }
 
 #reasons h3 {
@@ -120,18 +134,20 @@ main {
 
 #benefits-mental > div,
 #benefits-physical > div {
+    flex-direction: row;
     line-height: 20px;
     margin-bottom: 20px;
 }
 
 #benefits-mental > p,
 #benefits-physical > p {
+    flex-direction: column;
     padding: 0 20px;
 }
 
 hr {
     border-top: 1px solid #333E1D;
-    margin: 5px 0;
+    margin: 3px 0;
 }
 
 /*hero image styles*/
@@ -185,7 +201,6 @@ hr {
 
 #social-media i {
     padding: 7px 7px 7px 7px;
-    margin: bottom 25px;
 }
 
 /*media queries to adjust mobile design to larger screen sizes*/
@@ -229,19 +244,37 @@ hr {
     /*hero image*/
     #cover-text {
         width: 350px;
-        right: 40px;
+        right: 215px;
         margin: 2px 2px 2px 2px;
         text-align: center;
     }
 
+    #main {
+        margin-top: 250px;
+    }
+
     /*benefit section*/
-    #reasons {
+    #benefits-mental, #benefits-physical {
         display: flex;
-        width: 90%;
-        height:90vh;
-        margin: 25px auto;
-        justify-content: space-evenly;
-        align-content: space-between;
+        flex-direction: column;
+        width:65%;
+    }
+
+    #benefits-mental > div, #benefits-physical > div {
+        width: 75%;
+    }
+
+    #benefits-physical > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    #benefits-physical {
+        align-self: flex-end;
+    }
+
+    footer {
+        margin-top: 25px;
     }
 }
 
