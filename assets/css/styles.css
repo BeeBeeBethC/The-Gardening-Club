@@ -69,7 +69,7 @@ header {
 header a {
     text-decoration: none;
     color: #ebfecf;
-    font-size: 140%;
+    font-size: 130%;
 }
 
 .selected {
@@ -124,6 +124,7 @@ main {
     flex-direction: column;
     width: 90%;
     margin: 20px;
+    padding: 2px;
 }
 
 #reasons h3 {
@@ -176,7 +177,7 @@ hr {
     width: 90vw;
     background: url("../images/poppy.jpg") no-repeat top center/cover;
     margin-bottom: 20px;
-    border-radius: 50%;
+    border-radius: 25%;
     max-width: 300px;
     max-height: 300px;
 }
@@ -258,6 +259,7 @@ hr {
         display: flex;
         flex-direction: column;
         width:65%;
+        font-size: larger;
     }
 
     #benefits-mental > div, #benefits-physical > div {
@@ -315,5 +317,91 @@ hr {
         font-size: large;
         padding: 10px 10px 10px 10px;
         bottom: 50px;
+    }
+}
+
+/*media query for screens 1200 pixels and upwards */
+@media screen and (min-width: 1200px) {
+
+    /*header*/
+    nav {
+        display: block;
+        position: sticky;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    header a {
+        text-decoration: none;
+        color: #ebfecf;
+        font-size: 140%;
+    }
+
+    #menu {
+        display: flex;
+        text-align: end;
+        font-size: 140%;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    /*hero image*/
+    #cover-text {
+        width: 400px;
+        height: 400px;
+        right: 400px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        font-size: x-large;
+        bottom: 50px;
+        background-color: rgba(51, 62, 29, 0.9)
+    }
+
+    #main {
+        margin-top: 250px;
+    }
+
+    #reasons h3 {
+        font-size: 375%;
+    }
+
+    /*benefit section*/
+    #benefits-mental, #benefits-physical {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-mental > div, #benefits-physical > div {
+        flex: 1;
+    }
+
+    #reasons-image {
+        order: 0;
+    }
+    #benefits-mental {
+        align-self: flex-start;
+    }
+
+    #benefits-physical {
+        order: 1;
+        align-self: flex-end;
+    }
+
+    footer {
+        margin-top: 25px;
     }
 }
