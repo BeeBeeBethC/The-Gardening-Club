@@ -228,8 +228,13 @@ hr {
 
 #quick-tips {
     display: flex;
+    text-align: center;
     flex-direction: column;
     margin: 25px 25px 25px 25px;
+}
+
+#sign-up {
+    margin: 10px;
 }
 
 /*media queries to adjust mobile design to larger screen sizes*/
@@ -314,8 +319,8 @@ hr {
     }
 
     #quick-tips {
-        justify-content: center;
         text-align: center;
+        margin: 60px 25px 25px 25px;
     }
 }
 
@@ -340,7 +345,7 @@ hr {
         font-size: 150%;
     }
 
-    main {
+    #main {
         margin-top: 110px;
     }
 
@@ -445,9 +450,9 @@ hr {
     }
 
     #about {
-        margin-top: 80px;
-        margin-bottom: 70px;
         text-align: center;
+        font-size: larger;
+        margin: 50px 150px 150px 150px;
     }
 
     #quick-tips {
