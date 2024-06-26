@@ -189,6 +189,24 @@ hr {
     padding-top: 50px;
 }
 
+#circle-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/lavender.jpg") no-repeat top center/cover;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
 /*footer element*/
 #social-media {
     display: flex;
@@ -202,6 +220,14 @@ hr {
 
 #social-media i {
     padding: 7px 7px 7px 7px;
+}
+
+#about {
+    margin: 15px 15px 15px 15px;
+}
+
+#quick-tips {
+    margin: 25px 25px 25px 25px;
 }
 
 /*media queries to adjust mobile design to larger screen sizes*/
@@ -275,8 +301,19 @@ hr {
         align-self: flex-end;
     }
 
-    footer {
+    #footer {
         margin-top: 25px;
+    }
+
+    #about {
+        margin-top: 65px;
+        margin-bottom: 65px;
+        text-align: center;
+    }
+
+    #quick-tips {
+        justify-content: center;
+        text-align: center;
     }
 }
 
