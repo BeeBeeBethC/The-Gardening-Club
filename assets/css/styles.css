@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/*body element and main target headings*/
+/*body element and main target headings for mobile devices*/
 body {
     min-height: 100vh;
     display: flex;
@@ -22,27 +22,27 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(235, 254, 207);
+    font-size: 100%;
 }
 
 h2 {
     font-family: "PT Sans", sans-serif;
     letter-spacing: 2px;
-    color: rgb(235, 254, 207);
-    text-transform: capitalize;
+    color: rgb(51, 62, 29);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 300%;
 }
 
 h3 {
     font-family: "PT Sans", sans-serif;
-    letter-spacing: 1px;
-    color: rgb(51, 62, 29);
-    text-transform: uppercase;
-}
-
-h4 {
-    font-family: "PT Sans", sans-serif;
     letter-spacing: 2px;
     color: rgb(51, 62, 29);
-    text-transform: uppercase;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 175%;
 }
 
 p {
@@ -65,11 +65,11 @@ header {
     align-items: baseline;
 }
 
-/*controls text colour*/
+/*controls text colour and size of header/logo*/
 header a {
     text-decoration: none;
     color: #ebfecf;
-    font-size: 130%;
+    font-size: 140%;
 }
 
 .selected {
@@ -78,13 +78,14 @@ header a {
 }
 
 #menu {
-    font-size: medium;
+    font-size: smaller;
     letter-spacing: 2px;
     list-style-type: none;
 }
 
-#menu>li {
-    margin-bottom: 1em;
+#menu > li {
+    margin-bottom: 2em;
+    text-align: center;
 }
 
 /*navbar styles including dropdown toggle across all platforms*/
@@ -93,11 +94,11 @@ nav {
     /*controls background colour of dropdown*/
     background-color: #333E1D;
     width: 100%;
-    left: 0;
-    padding: 1rem 1rem;
+    left: 0px;
+    padding: 2rem 2rem;
     box-shadow: 0px 2px 0px 0px;
     display: none;
-    top: 100%;
+    top: 75%;
 }
 
 /*navbar toggle function styles*/
@@ -110,13 +111,13 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /*main element*/
 main {
     flex: 1 auto;
-    margin-top: 200px;
+    margin-top: 45px;
 }
 
 #reasons {
@@ -125,12 +126,6 @@ main {
     width: 90%;
     margin: 20px;
     padding: 2px;
-}
-
-#reasons h3 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
 }
 
 #benefits-mental > div,
@@ -151,7 +146,7 @@ hr {
     margin: 3px 0;
 }
 
-/*hero image styles*/
+/*hero image styles in main css no media queries.*/
 #hero {
     height: 600px;
     width: 100%;
@@ -188,22 +183,7 @@ hr {
     align-items: center;
     justify-content: center;
     padding-top: 50px;
-}
-
-.club-box {
-    display: flex;
-    align-items: center;
-}
-
-#circle-bg {
-    height: 90vh;
-    width: 100%;
-    background: url("../images/lavender-field.jpg") no-repeat top center/cover;
-    margin: 30px;
-    max-width: 600px;
-    max-height: 300px;
-    
-}
+} 
 
 /*footer element*/
 #social-media {
@@ -220,9 +200,23 @@ hr {
     padding: 7px 7px 7px 7px;
 }
 
+/*target this about section for the base css of the document to do with about page. This isn't to do with media queries.*/
 #about {
     display: flex;
     margin: 15px 15px 15px 15px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#about-image {
+    height: 90vh;
+    width: 100%;
+    background: url("../images/lavender-field.jpg") no-repeat top center/cover;
+    margin: 30px;
+    max-width: 600px;
+    max-height: 300px;
 }
 
 #quick-tips {
