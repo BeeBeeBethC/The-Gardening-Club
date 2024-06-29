@@ -22,7 +22,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(235, 254, 207);
-    font-size: 100%;
+    font-size: 108%;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 300%;
+    font-size: 108%;
 }
 
 h3 {
@@ -42,7 +42,7 @@ h3 {
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 175%;
+    font-size: 95%;
 }
 
 p {
@@ -84,7 +84,7 @@ header a {
 }
 
 #menu > li {
-    margin-bottom: 2em;
+    margin-bottom: 5px;
     text-align: center;
 }
 
@@ -102,7 +102,7 @@ nav {
 }
 
 /*navbar toggle function styles*/
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -117,26 +117,28 @@ nav {
 /*main element*/
 main {
     flex: 1 auto;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 #reasons {
     display: flex;
     flex-direction: column;
+    text-align: center;
     width: 90%;
-    margin: 20px;
-    padding: 2px;
+    margin: 25px;
+    padding: 16px;
+    font-size: 95%;
 }
 
-#benefits-mental > div,
-#benefits-physical > div {
+#benefits-mental>div,
+#benefits-physical>div {
     flex-direction: row;
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#benefits-mental > p,
-#benefits-physical > p {
+#benefits-mental>p,
+#benefits-physical>p {
     flex-direction: column;
     padding: 0 20px;
 }
@@ -157,24 +159,24 @@ hr {
 /*The 'a' in rgba stands for alpha and controls opacicity of element*/
 #cover-text {
     background-color: rgba(51, 62, 29, .8);
-    font-size: 90%;
+    font-size: 100%;
     position: absolute;
     bottom: 45px;
     min-height: 150px;
-    width: 70%;
+    width: 65%;
     padding-top: 15px;
     padding-left: 15px;
     text-align: center;
 }
 
 #circle-cover-background {
-    height: 90vw;
-    width: 90vw;
+    height: 70vw;
+    width: 70vw;
     background: url("../images/wall-basket.jpg") no-repeat top center/cover;
     margin-bottom: 20px;
-    border-radius: 25%;
-    max-width: 300px;
-    max-height: 300px;
+    border-radius: 5%;
+    max-width: 450px;
+    max-height: 450px;
     align-self: center;
 }
 
@@ -183,7 +185,7 @@ hr {
     align-items: center;
     justify-content: center;
     padding-top: 50px;
-} 
+}
 
 /*footer element*/
 #social-media {
@@ -203,7 +205,7 @@ hr {
 /*target this about section for the base css of the document to do with about page. This isn't to do with media queries.*/
 #about {
     display: flex;
-    margin: 15px 15px 15px 15px;
+    margin: 30px;
     text-align: center;
     flex-direction: column;
     display: flex;
@@ -223,39 +225,40 @@ hr {
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin: 25px 25px 25px 25px;
+    margin: 55px;
 }
 
 #sign-up {
-    margin: 10px;
+    margin: 25px;
+    padding: 30px
 }
 
 /*media queries to adjust mobile design to larger screen sizes*/
 @media screen and (min-width: 768px) {
 
-    /*header*/
     nav {
         display: block;
         position: sticky;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding: 1rem;
+        font-size: medium;
     }
 
     header a {
         text-decoration: none;
         color: #ebfecf;
-        font-size: 140%;
+        font-size: 100%;
     }
 
     #menu {
         display: flex;
         text-align: end;
-        font-size: large;
+        font-size: medium;
     }
 
-    #menu>li {
-        padding-left: 1rem;
+    #menu > li {
+        padding-left: 10px;
     }
 
     .nav-toggle-label {
@@ -263,38 +266,38 @@ hr {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0.5rem 0 0.5rem 0;
+        font-size: 215%;
+        margin: 0;
     }
 
     /*hero image*/
     #cover-text {
-        width: 350px;
-        right: 215px;
+        width: 313px;
+        right: 213px;
         margin: 2px 2px 2px 2px;
         text-align: center;
     }
 
-    #main {
-        margin-top: 250px;
+    h2 {
+        font-size: 195%;
+    }
+
+    #reasons {
+        font-size: 115%;
     }
 
     /*benefit section*/
-    #benefits-mental, #benefits-physical {
+    #benefits-mental,
+    #benefits-physical {
         display: flex;
         flex-direction: column;
-        width:65%;
+        width: 65%;
         font-size: larger;
     }
 
-    #benefits-mental > div, #benefits-physical > div {
-        width: 75%;
-    }
-
+    #benefits-mental > div,
     #benefits-physical > div {
-        text-align: end;
-        align-self: flex-end;
+        width: 75%;
     }
 
     #benefits-physical {
@@ -310,58 +313,22 @@ hr {
     }
 
     #about {
-        margin-top: 65px;
-        margin-bottom: 65px;
+        margin: 60px;
         text-align: center;
+    }
+
+    #club-box {
+        padding: 30px;
+    }
+
+    #sign-up {
+        margin: 60px;
+        padding: 0px 100px 0px 100px;
     }
 
     #quick-tips {
         text-align: center;
-        margin: 60px 25px 25px 25px;
-    }
-}
-
-/*larger devices 992px and upwards*/
-@media screen and (min-width: 992px) {
-
-    nav {
-        display: block;
-        position: sticky;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    nav li a:hover {
-        border-bottom: 2px solid rgb(248, 158, 235);
-    }
-
-    header a {
-        text-decoration: none;
-        color: #ebfecf;
-        font-size: 150%;
-    }
-
-    #main {
-        margin-top: 110px;
-    }
-
-    #menu {
-        display: flex;
-        text-align: end;
-        font-size: xx-large;
-    }
-
-    #cover-text {
-        width: 225px;
-        align-content: center;
-        font-size: large;
-        padding: 10px 10px 10px 10px;
-        bottom: 50px;
-    }
-
-    #reasons {
-        margin: 0px 80px 0px 80px;
-        padding: 0px 80px 0px 80px;
+        margin: 60px;
+        padding: 80px;
     }
 }
