@@ -22,7 +22,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(235, 254, 207);
-    font-size: 108%;
+    font-size: 96%;
 }
 
 h2 {
@@ -81,6 +81,11 @@ header a {
     font-size: smaller;
     letter-spacing: 2px;
     list-style-type: none;
+}   
+
+#menu button:hover {
+    text-decoration: underline;
+    color: rgb(248, 158, 235);
 }
 
 #menu > li {
@@ -113,6 +118,7 @@ nav {
 .nav-toggle-label {
     font-size: 1rem;
 }
+
 
 /*main element*/
 main {
@@ -327,7 +333,7 @@ hr {
     }
 
     #quick-tips {
-        text-align: center;
+        align-self: center;
         margin: 60px;
         padding: 80px;
     }
