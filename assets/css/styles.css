@@ -322,13 +322,103 @@ hr {
     }
 
     #sign-up {
-        margin: 60px;
-        padding: 0px 100px 0px 100px;
+        width: 346px;
+        margin: 10px 200px 10px 200px;
     }
 
     #quick-tips {
         text-align: center;
         margin: 60px;
         padding: 80px;
+    }
+}
+
+/*media query for screens 1200 pixels and upwards*/
+@media screen and (min-width: 1200px) {
+
+    /*header*/
+    nav {
+        display: block;
+        position: sticky;
+        box-shadow: none;
+        width: fit-content;
+        font-size: large;
+    }
+
+    header a {
+        font-size: 150%;
+    }
+
+    #menu {
+        font-size: x-large;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 295%;
+    }
+
+    /*hero image*/
+    #cover-text {
+        width: 491px;
+        height: 356px;
+        font-size: 250%;
+    }
+
+    #main {
+        margin-top: 110px;
+    }
+    #reasons > h2 {
+        font-size: 250%
+    }
+
+    #reasons > h3 {
+        font-size: 180%;
+    }
+
+    /*benefit section*/
+    #reasons {
+        margin: 35px 90px 35px 90px;
+        padding: 5px 120px 5px 120px;
+    }
+    #reasons image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        align-self: flex-start;
+    }
+
+    #benefits-physical {
+        order: 1;
+        align-self: flex-end;
+    }
+
+    #club-box {
+        width: 800px;
+    }
+    #about-image {
+        width:200%;
+        max-width: 800px;
+        max-height: 300px;
+    }
+    #about {
+        text-align: center;
+        font-size: larger;
+        margin: 90px 200px 90px 200px;
+    }
+
+    #quick-tips {
+        text-align: center;
+        width: 800px;
+        margin: 10px 320px 10px 320px;
+    }
+    #sign-up {
+        text-align: center;
+        width: 800px;
+        margin: 10px 320px 10px 320px;
     }
 }
