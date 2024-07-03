@@ -2,10 +2,17 @@
 
 The Gardening Club is a club website that can be used to encourage people to join and learn how to garden.
 
-design section (color scheme throughout) highly focused on contrast for colour scheme
+![responsive design of webpages across devices](documentation/responsive-image.png)
+
+## Design and Accessibility
+- For the design choices on The Gardening Club website, I wanted to keep my colour scheme throughout and keep it consistent. In order to achieve this I made sure that I had a high contrast and that everything was visible and easy to read and navigate.
+- *insert colour pallete here*
+- the colours I chose because although they are green, they are of a high contrast to one another. I also wanted a pop of colour to appear on the nav bar for the selected page and on mouse hover (see bug section). 
+
+
 typography, why fonts selected and used accessibility (sans/sans-serif)
-imagery, different aspects of the website design that are relevant features. 
-wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop.
+imagery *see screenshots* different aspects of the website design that are relevant features. 
+wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop. *back to balsamiq*
 
 - - -
 
@@ -19,8 +26,8 @@ wireframes across different devices/different perspectives. Mobile, Tablet, Lapt
 - - -
 ## Screenshots
 
-![responsive design of webpages across devices](documentation/responsive-image.png)
-![picture of lettuce bed with kale, chard](documentation/hero-image.png)
+
+![picture of salad bed with kale, chard, squash and accompanying nasturtium](documentation/hero-image.png)
 ![nav bar with club logo included](documentation/nav-bar.png)
 ![screenshot of about us page](documentation/about-us-page.png)
 ![screenshot of footer](documentation/footer.png)
@@ -78,14 +85,15 @@ for portfolio project one, the main focus was accessibility. The lighthouse scor
 - Accessibility scored 100
 - Best Practices scored 100
 - SEO scored 100. 
-
+-*insert scores for desktop version here*
 To improve the performance score, I would need to further optimize the images selected. 
 
 ## Unfixed bugs
 
 ## Deployment
 
-local development - Fork/Clone
+local development - Fork/Clone *look into these*
+as well as something else!
 
     The Gardening Club was deployed to Github pages. The steps I took to do this are as follows below: 
 
@@ -115,9 +123,3 @@ local development - Fork/Clone
     About us image of Lavender, taken from Pexels.
     Index image and Hero image are authors own.
     Web Link to Gardeners world website for more gardening tips. 
-
-## Acknowledgements
-
-luke mentor
-kera - readme guidance
-family and friends for continued support
