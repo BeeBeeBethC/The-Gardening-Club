@@ -1,6 +1,33 @@
-## The Gardening Club
+# THE GARDENING CLUB
 
+The Gardening Club is a club website that can be used to encourage people to join and learn how to garden.
+
+- - -
+
+## Contents
+
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* []
+
+- - -
+
+design section (color scheme throughout) highly focused on contrast for colour scheme
+typography, why fonts selected and used accessibility (sans/sans-serif)
+imagery, different aspects of the website design that are relevant features. 
+wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop.
 ## Features
+
+general features, favicon, headings, navigation on each page this is what they are and what they contain
+future implementations, things you want to do but haven't had time or skills to implement.
+accessibility! screen readers, colour blindness. font choices. aria labels. alt text on images.
+
+## Technologies used:
+
+languages, HTML, CSS. 
+
+frameworks libraries and programmes used. balsamiq wireframes Google Fonts, amiresponsive, favicon tinypng, Chrome dev tools. github to store files gitpod to edit code.
 
 ## Testing
 
@@ -17,6 +44,8 @@
     I also confirmed that the form needed to be completed fully in order to be able to submit information through the use of the form validation. 
     
     The submit button also works when all fields are filled out properly.
+
+    wave testing
 
 ## Validator Testing
 
@@ -38,11 +67,13 @@ for portfolio project one, the main focus was accessibility. The lighthouse scor
 - Best Practices scored 100
 - SEO scored 100. 
 
-To improve the performance score, I would need to further optimize the images selected and used within the website. 
+To improve the performance score, I would need to further optimize the images selected. 
 
 ## Unfixed bugs
 
 ## Deployment
+
+local development - Fork/Clone
 
     The Gardening Club was deployed to Github pages. The steps I took to do this are as follows below: 
 
@@ -72,3 +103,9 @@ To improve the performance score, I would need to further optimize the images se
     About us image of Lavender, taken from Pexels.
     Index image and Hero image are authors own.
     Web Link to Gardeners world website for more gardening tips. 
+
+## Acknowledgements
+
+luke mentor
+kera - readme guidance
+family and friends for continued support
