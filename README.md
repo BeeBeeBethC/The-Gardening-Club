@@ -2,6 +2,11 @@
 
 The Gardening Club is a club website that can be used to encourage people to join and learn how to garden.
 
+design section (color scheme throughout) highly focused on contrast for colour scheme
+typography, why fonts selected and used accessibility (sans/sans-serif)
+imagery, different aspects of the website design that are relevant features. 
+wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop.
+
 - - -
 
 ## Contents
@@ -9,14 +14,21 @@ The Gardening Club is a club website that can be used to encourage people to joi
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
-* []
+
 
 - - -
+## Screenshots
 
-design section (color scheme throughout) highly focused on contrast for colour scheme
-typography, why fonts selected and used accessibility (sans/sans-serif)
-imagery, different aspects of the website design that are relevant features. 
-wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop.
+![responsive design of webpages across devices](documentation/responsive-image.png)
+![picture of lettuce bed with kale, chard](documentation/hero-image.png)
+![nav bar with club logo included](documentation/nav-bar.png)
+![screenshot of about us page](documentation/about-us-page.png)
+![screenshot of footer](documentation/footer.png)
+![screenshot of form submission](documentation/form-submission.png)
+![screenshot of form validation](documentation/form-validator.png)
+![screenshots of wireframes created using balsamiq](documentation/wireframe-desktop.png)
+![screenshot of quick tips section](documentation/quick-tips.png)
+
 ## Features
 
 general features, favicon, headings, navigation on each page this is what they are and what they contain
@@ -60,7 +72,7 @@ HTML pages threw up a few errors on initial testing, these were:
  - I'd also put in trailing slash characters which were absolute so I removed those and on removal, the code validated. 
 
 **Lighthouse scoring**
-for portfolio project one, the main focus was accessibility. The lighthouse scores for this project are as follows:
+for portfolio project one, the main focus was accessibility. The lighthouse scores for this project on mobile are as follows:
 
 - Performance scored 72
 - Accessibility scored 100
