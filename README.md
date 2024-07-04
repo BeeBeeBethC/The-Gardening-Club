@@ -14,7 +14,7 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 
 - TODO typography, why fonts selected and used accessibility (sans/sans-serif)
 - TODO imagery *see screenshots* different aspects of the website design that are relevant features. 
-- TODO wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop. *back to balsamiq*
+- TODO wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop. *bring images across from canva.*
 
 - - -
 
@@ -47,12 +47,6 @@ TODO *move these to relevant places throughout*
 ![screenshot of form validation](documentation/form-validator.png)
 ![screenshots of wireframes created using balsamiq](documentation/wireframe-desktop.png)
 ![screenshot of quick tips section](documentation/quick-tips.png)
-![main page lighthouse scores](documentation/main-page-performance.png)
-![about us lighthouse scores](documentation/about-us-performance.png)
-![Quicktips lighthouse scores](documentation/quick%20tips%20performance.png)
-
-TODO *validator screenshots*
-
 
 ## TODO Features
 
@@ -82,33 +76,31 @@ I also confirmed that the form needed to be completed fully in order to be able 
     
 The submit button also works when all fields are filled out properly.
 
-wave testing **get screenshot**
+wave testing TODO **get screenshot**
 
 ## Validator Testing
+ - the form aspect on this website will not validate unless theres a valid full name and email address written in the form.
+ ![no-full-name-validator](documentation/no-full-name-validator.png)
+ ![no-email-validator](documentation/no-email-validator.png)
+ ![incorrect-email-address](documentation/no-email-address-validator.png)
 
-**insert validator testing screenshots here**
+**CSS**
 
-**CSS** 
-CSS passed validating testing using jigsaw Ws3 validators no errors. 
+- CSS passed validating testing using jigsaw Ws3 validators no errors. 
 
 **HTML pages**
+
 HTML pages threw up a few errors on initial testing, these were:
- - Stray end tag in index.html (see screenshot) i'd applied an extra "div" closing tag. upon removal index.html validated no errors.
- - In the HTML document, 'about-us.html' I'd made a human error in my code in relation to aria tags and alt tags. I'd also missed a closing "div" tag. on removing the aria and alt tags and adding the closing div element, the HTML document passed with no errors or warnings.
- - In quick-tips.html I had a stray end tag in a line of code within my footer element of the website. 
- - I'd also put in trailing slash characters which were absolute so I removed those and on removal, the code validated.
+ - Stray end tag in index.html (see screenshot) I'd applied an extra 'div' closing tag. On removal index.html validated no errors.
+ - In the HTML document, 'about-us.html' I'd made a human error in my code in relation to aria tags and alt tags. I'd also missed a closing 'div' tag. On removing the aria and alt tags and adding the closing div element, the HTML document passed with no errors or warnings.
+ - In quick-tips.html I had a stray end tag in a line of code within my footer element of the website. I'd also put in trailing slash characters which were absolute so I removed those and on removal, the code validated.
 
 **Lighthouse scoring**
 
- The lighthouse scores for Portfolio Project One, are below. The main focus for this project was every aspect of accessibility. **insert screenshots of performance scores here**
-
-- **Desktop:**
-    - Performance scored 91.
-    - Accessibility scored 100.
-    - Best practices scored 100.
-    - SEO scored 100.
-
-To improve the performance score, I would need to further optimize the images selected. 
+The lighthouse scores for Portfolio Project One, are below. The main focus for this project was every aspect of accessibility. 
+![Main-page lighthouse scores](documentation/main-page-performance.png)
+![About-us lighthouse scores](documentation/about-us-performance.png)
+![Quicktips lighthouse scores](documentation/quick%20tips%20performance.png)
 
 ## Bugs
 
@@ -133,7 +125,7 @@ To improve the performance score, I would need to further optimize the images se
 - Once the master branch had been selected and the browser has reloaded itself, the page then provided the link to the live deployed version of the website.
     - The live link can be found here - https://beebeebethc.github.io/The-Gardening-Club/
 
-local development - Fork/Clone **look into these as well as something else!**
+local development - Fork/Clone TODO **look into these as well as something else!**
 
 ## Credits
 
@@ -163,4 +155,6 @@ local development - Fork/Clone **look into these as well as something else!**
 - - -
 
 **Acknowledgements**
-**Add in Acknowledgements here**
+ - My family and friends who continually support me.
+ - Luke Buchanan, my mentor for his support through Project 1.
+ - Kera Cudmore who helped me navigate the starts of my Readme documentation.
