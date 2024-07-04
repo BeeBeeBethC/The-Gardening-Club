@@ -47,6 +47,9 @@ TODO *move these to relevant places throughout*
 ![screenshot of form validation](documentation/form-validator.png)
 ![screenshots of wireframes created using balsamiq](documentation/wireframe-desktop.png)
 ![screenshot of quick tips section](documentation/quick-tips.png)
+![main page lighthouse scores](documentation/main-page-performance.png)
+![about us lighthouse scores](documentation/about-us-performance.png)
+![Quicktips lighthouse scores](documentation/quick%20tips%20performance.png)
 
 TODO *validator screenshots*
 
