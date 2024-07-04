@@ -99,14 +99,8 @@ HTML pages threw up a few errors on initial testing, these were:
 
  The lighthouse scores for Portfolio Project One, are below. The main focus for this project was every aspect of accessibility. **insert screenshots of performance scores here**
 
-- **Mobile Devices:**    
-    - Performance scored 72.
-    - Accessibility scored 100.
-    - Best Practices scored 100.
-    - SEO scored 100. 
-
 - **Desktop:**
-    - Performance scored 89.
+    - Performance scored 91.
     - Accessibility scored 100.
     - Best practices scored 100.
     - SEO scored 100.

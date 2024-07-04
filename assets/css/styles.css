@@ -235,8 +235,13 @@ hr {
 }
 
 #sign-up {
-    margin: 25px;
-    padding: 30px
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 150%;
+        letter-spacing: 3px;
+        text-align: center;
 }
 
 /*media queries to adjust mobile design to larger screen sizes*/
@@ -328,13 +333,17 @@ hr {
     }
 
     #sign-up {
-        width: 346px;
-        margin: 10px 200px 10px 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 150%;
+        letter-spacing: 3px;
     }
 
     #quick-tips {
-        align-self: center;
-        margin: 60px;
+        max-width: 800px;
         padding: 80px;
     }
 }
@@ -368,7 +377,7 @@ hr {
     }
 
     #logo {
-        font-size: 295%;
+        font-size: 280%;
     }
 
     /*hero image*/
@@ -391,6 +400,7 @@ hr {
 
     /*benefit section*/
     #reasons {
+        font-size: 150%;
         margin: 35px 90px 35px 90px;
         padding: 5px 120px 5px 120px;
     }
@@ -418,17 +428,23 @@ hr {
     #about {
         text-align: center;
         font-size: larger;
-        margin: 90px 200px 90px 200px;
+        margin: 100px 200px 79px 200px;
     }
 
     #quick-tips {
         text-align: center;
-        width: 800px;
+        max-width: 800px;
         margin: 10px 320px 10px 320px;
+        font-size: 140%;
     }
+   
     #sign-up {
-        text-align: center;
-        width: 800px;
-        margin: 10px 320px 10px 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 150%;
+        letter-spacing: 3px;
     }
 }
