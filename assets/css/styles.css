@@ -125,7 +125,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    margin-bottom: 130px;
+    margin-bottom: 75px;
 }
 
 #reasons {
@@ -138,8 +138,8 @@ main {
     font-size: 95%;
 }
 
-#benefits-mental>div,
-#benefits-physical>div {
+#benefits-mental > div,
+#benefits-physical > div {
     flex-direction: row;
     line-height: 20px;
     margin-bottom: 20px;
@@ -232,7 +232,9 @@ hr {
 #quick-tips {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    align-items:center;
+    text-align: center;
+    margin-top: 100px;
     margin-bottom: 130px;
 }
 
@@ -241,7 +243,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 150%;
+    font-size: 110%;
     letter-spacing: 3px;
     text-align: center;
 }
@@ -346,7 +348,7 @@ hr {
 
     #quick-tips {
         max-width: 800px;
-        padding: 80px;
+        padding: 60px;
     }
 }
 
