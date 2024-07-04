@@ -8,13 +8,13 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 
 ## Design and Accessibility
 - For the design choices on The Gardening Club website, I wanted to keep my colour scheme throughout and keep it consistent. In order to achieve this I made sure that I had a high contrast and that everything was visible and easy to read and navigate.
-- *insert colour pallete here*
+- TODO insert colour pallete here
 - the colours I chose because although they are green, they are of a high contrast to one another. I also wanted a pop of colour to appear on the nav bar for the selected page and on mouse hover. 
 
 
-- typography, why fonts selected and used accessibility (sans/sans-serif)
-- imagery *see screenshots* different aspects of the website design that are relevant features. 
-- wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop. *back to balsamiq*
+- TODO typography, why fonts selected and used accessibility (sans/sans-serif)
+- TODO imagery *see screenshots* different aspects of the website design that are relevant features. 
+- TODO wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop. *back to balsamiq*
 
 - - -
 
@@ -38,7 +38,7 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 
 ## Screenshots
 
-*move these to relevant places throughout*
+TODO *move these to relevant places throughout*
 ![picture of salad bed with kale, chard, squash and accompanying nasturtium](documentation/hero-image.png)
 ![nav bar with club logo included](documentation/nav-bar.png)
 ![screenshot of about us page](documentation/about-us-page.png)
@@ -48,10 +48,10 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 ![screenshots of wireframes created using balsamiq](documentation/wireframe-desktop.png)
 ![screenshot of quick tips section](documentation/quick-tips.png)
 
-**validator screenshots**
+TODO *validator screenshots*
 
 
-## Features
+## TODO Features
 
 **general features, favicon, headings, navigation on each page this is what they are and what they contain**
 **future implementations, things you want to do but haven't had time or skills to implement.**
@@ -146,6 +146,8 @@ local development - Fork/Clone **look into these as well as something else!**
 
 - TinyPNG used to optimise images for web browser purposes and to help support performance status of the website.
 
+-cloudconvert to convert images to WEBP instead of JPG images.
+
 - Chrome Devtools used to help identify visual bugs on a live preview.
 
 - Flexbox support gained from:
@@ -157,9 +159,9 @@ local development - Fork/Clone **look into these as well as something else!**
 
 **Media**
 
-About us image of Lavender, taken from Pexels.
-Index image and Hero image are authors own.
-Web Link to Gardeners world website for more gardening tips. 
+- About us image of Lavender, taken from Pexels.
+- Index image and Hero image are authors own.
+- Web Link to Gardeners world website for more gardening tips. 
 
 - - -
 
