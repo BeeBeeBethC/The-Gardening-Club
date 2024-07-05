@@ -11,24 +11,53 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 ## Contents
 
 * [Target Audience](#target-audience-and-user-experience)
-    * [Target Audiences](#target-audience)
-    * [User Experience](#user-stories)
-    * [New Gardeners](#someone-who-has-never-done-any-gardening)
-    * [Accessibility at the forefront](#accessibility-for-all-first)
-    * [User friendly](#user-friendly-across-multiple-devices)
+   * [Target Audiences](#target-audience)
+* [User Experience](#user-stories)
+   * [New Gardeners](#someone-who-has-never-done-any-gardening)
+   * [Accessibility at the fore-front](#accessibility-for-all-first)
+   * [User friendly](#user-friendly-across-multiple-devices)
 
 * [Design and Accessibility](#design-and-accessibility)
+   * [Colour palette](#colour-choices-for-this-website)
+   * [Typography](#typography)
+
 * [Features](#features)
-* [Technologies Used](#technologies-used)
-* [Testing](#testing)
-    * [Manual Testing](#testing)
+   * [Desktop Wire-frames](#wireframes-for-desktop-devices)
+   * [Tablet Wire-frames](#wireframes-for-mobile---tablet-devices)
+   * [Mobile Wire-frames](#wireframes-for-mobile-devices)
+   * [Landing page](#landing-page-for-the-website)
+
+* [Accessibility](#accessibility-in-more-depth)
+   * [Screen-Readers](#screen-readers)
+   * [Font Choices](#font-choices)
+   * [Colour-Blindness](#colour-blindness)
+   * [Future Implementations](#future-implementations)
+
+* [Languages, Technologies, Frameworks and Libraries](#technologies-used)
+   * [Languages](#languages)
+   * [Technologies, Frameworks and Libraries Used](#technologies-frameworks-and-libraries-used)
+   * [Other Programmes Used](#other-programmes-used)
+
+* [Full Website Testing](#full-website-testing)
+
+* [Further Testing](#further-testing)
+   * [Wave Testing](#wave-testing)
+   * [Form Validator Testing](#validator-testing)
+   * [Jigsaw CSS Testing](#css)
+   * [W3S HTML Testing](#html-pages)
+   * [Lighthouse Scoring](#lighthouse-scoring)
+
 * [Bugs](#bugs)
-    * [Bugs Unfixed](#unfixed-bugs)
-    * [Bugs Fixed](#fixed-bugs)
+   * [Bugs Unfixed](#unfixed-bugs)
+   * [Bugs Fixed](#fixed-bugs)
+
 * [Deployment](#deployment)
+   * [Clone The Repository](#how-to-clone-a-repository)
+   * [How To Create A Fork](#how-to-create-a-fork-of-the-repository)
+
 * [Credits](#credits)
-    * [Content](#credits)
-    * [Media](#credits)
+   * [Content](#credits)
+   * [Media](#credits)
 
 - - -
 ## Target Audience and User Experience
@@ -39,10 +68,10 @@ The target audience is anyone of any age and gardening experience. The idea behi
 ## User Stories
 Across the website, the content does not change too much. Therefore, the user experience for new and returning users remains essentially the same throughout.
 
-### Someone who has never done any gardening.
+### Someone who has never done any gardening
 For someone who hasn't done any form of gardening before or struggles to keep plants alive, The Gardening Club offers those users the chance to join a community of like minded gardeners who are always willing to help and share advice. 
 
-### Accessibility for all first. 
+### Accessibility for all first 
 The website is designed with the users accessibility in mind. Regardless of whether users vaguely know their way around computers or are visually impaired and rely on screen readers. The focus of this website is to make it as accessible as possible for users whether they be first time or returning visitors.
 
 ### User friendly across multiple devices
@@ -317,6 +346,8 @@ Once the master branch had been selected and the browser has reloaded itself, th
 
    - The live link can be found here - https://beebeebethc.github.io/The-Gardening-Club/
 
+### How to clone a repository
+
 For local development, If you wish to explore behind the scenes of The Gardening Club, follow these steps below to create a clone:
     
    1. Go to the Repository that you wish to clone (https://github.com/BeeBeeBethC/The-Gardening-Club).
@@ -326,9 +357,9 @@ For local development, If you wish to explore behind the scenes of The Gardening
    3. On the dropdown menu that appears once clicked, select the 'copy URL to clipboard' button (looks like two squares overlaying one another).
     
    4. Open your code editor, (for myself it's Visual Studio Code). On Visual Studio Code, Click the 'Source Control' button from the left hand side of the screen (the one that can also be used to commit changes).
-       - 4a. On alternative code editors,open the terminal and change the working directory to the location of your cloned repository. 
+      - 4a. On alternative code editors,open the terminal and change the working directory to the location of your cloned repository. 
    5. Paste the repository URL into the top navigation bar of Visual Studio Code.
-       - 5a. On alternative code editors, type 'git clone' into the terminal and paste the link of the URL
+      - 5a. On alternative code editors, type 'git clone' into the terminal and paste the link of the URL
     
    6. Save the Repository to a localised folder where the repository will be stored on your computer.
     
@@ -336,7 +367,9 @@ For local development, If you wish to explore behind the scenes of The Gardening
     
    8. Let the Repository download and click 'open' when the onscreen prompt appears in the bottom right hand corner of the screen.
 
-How to create a fork of The Gardening Club:
+### How to create a fork of the repository:
+
+How to create a fork of The Gardening Club repository
 
    1. Sign up or login to Github.
     
