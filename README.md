@@ -46,27 +46,20 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 
     ![both font styles used in The Gardening Club website](documentation/typography.png)
 
-## Screenshots
+## Features
+- For this website, I wanted the structure of the webpage to roughly stay the same throughout with only minimal changes to design and layout.
 
-TODO *move these to relevant places throughout*
+- my reasons for this
 
+![picture of salad bed with kale, chard, squash and accompanying nasturtium](documentation/hero-image.png)
+**general features, favicon, headings, navigation on each page this is what they are and what they contain**
 ![nav bar with club logo included](documentation/nav-bar.png)
 ![screenshot of about us page](documentation/about-us-page.png)
 ![screenshot of footer](documentation/footer.png)
-![screenshot of form submission](documentation/form-submission.png)
-![screenshot of form validation](documentation/form-validator.png)
 ![screenshots of wireframes created for desktop](documentation/wireframes-desktop-3.png)
 ![screenshots of wireframes created for tablet](documentation/wireframes-tablet-design.png)
 ![screenshot of wireframes created for mobile](documentation/wireframes-mobile.png)
 ![screenshot of quick tips section](documentation/quick-tips.png)
-
-## Features
-- For this website, I wanted the structure of the webpage to roughly stay the same throughout with only minimal changes to design and layout.
-
-**
-![picture of salad bed with kale, chard, squash and accompanying nasturtium](documentation/hero-image.png)
-**general features, favicon, headings, navigation on each page this is what they are and what they contain**
-
 **accessibility! screen readers, colour blindness. font choices. aria labels. alt text on images.**
 - My reasoning for choosing these fonts are because:
 - Both fonts are classed as web friendly fonts with their default fonts resorting to Sans-Serif and Sans should the browsers be unable to identify them both.
@@ -156,37 +149,66 @@ Testing was also performed on various Web Browsers:
 
 ## Further Testing 
 
-## Wave Testing: 
+### Wave Testing: 
 
-![accessibility test for main page](documentation/wave-test-1.png)
-![accessibility test for about-us page](documentation/wave-test-2.png)
-![accessibility test for quick-tips page](documentation/wave-test-3.png)
+- The wave tests show that there are no accessibility errors. The orange alert shown next to the home button is because I wanted users to always be able to return home no matter where they were on the website all they would have to do is click on the main logo to return to home page. 
+
+    ![accessibility test for main page](documentation/wave-test-1.png)
+    ![accessibility test for about-us page](documentation/wave-test-2.png)
+    ![accessibility test for quick-tips page](documentation/wave-test-3.png)
 
 ## Validator Testing
- - the form aspect on this website will not validate unless theres a valid full name and email address written in the form.
- ![no-full-name-validator](documentation/no-full-name-validator.png)
- ![no-email-validator](documentation/no-email-validator.png)
- ![incorrect-email-address](documentation/no-email-address-validator.png)
+ - The form aspect on this website will not validate unless theres a valid full name and official email address written in the form.
+ - If users do not put their full name in to the box, the form will not submit and a validation error tag will pop up.
+
+    ![no-full-name-validator](documentation/no-full-name-validator.png)
+ 
+ - If users partially fill out the form and do not put any email address into the form box, the form will not submit and a validation error pop up will appear.
+
+    ![no-email-validator](documentation/no-email-validator.png)
+ 
+- If users do not put an official email into the form box, the form will not submit and a validation pop up will appear.
+ 
+    ![incorrect-email-address](documentation/no-email-address-validator.png)
+
+- This is the screen that appears if all aspects of the form have been completed correctly.
+
+    ![screenshot of form submission](documentation/form-submission.png)
 
 **CSS**
 
 - CSS passed validating testing using jigsaw Ws3 validators no errors. 
+    ![css validator screenshot](documentation/css%20validator.png)
+
 
 **HTML pages**
 
 HTML pages threw up a few errors on initial testing, these were:
- - Stray end tag in index.html (see screenshot) I'd applied an extra 'div' closing tag. On removal index.html validated no errors.
+ - Stray end tag in index.html I'd applied an extra 'div' closing tag. On removal index.html validated no errors.
+
+    ![validation of index html page](documentation/w3s%20html1.png)
+
  - In the HTML document, 'about-us.html' I'd made a human error in my code in relation to aria tags and alt tags. I'd also missed a closing 'div' tag. On removing the aria and alt tags and adding the closing div element, the HTML document passed with no errors or warnings.
+ 
+    ![validation of about-us html page](documentation/w3s%20html2.png)
+ 
  - In quick-tips.html I had a stray end tag in a line of code within my footer element of the website. I'd also put in trailing slash characters which were absolute so I removed those and on removal, the code validated.
+  
+    ![validation of quick-tips html page](documentation/w3s%20html3.png)
 
 **Lighthouse scoring**
 
-The lighthouse scores for Portfolio Project One, are below. The main focus for this project was every aspect of accessibility.
+- The lighthouse scores for The Gardening Club, are below. The main focus for this project was every aspect of accessibility.
 
-Performance scores are lowered on two of the three pages due to high quality images used in the code. These images have been  compressed and converted.  
-![Main-page lighthouse scores](documentation/main-page-performance.png)
-![About-us lighthouse scores](documentation/about-us-performance.png)
-![Quicktips lighthouse scores](documentation/quick%20tips%20performance.png)
+- Performance scores differ due to high quality images used in the code. These images have been compressed and converted to try and ease loading time.
+    - The first screenshot is from the testing of the Home Page.
+    ![Main-page lighthouse scores](documentation/main-page-performance.png)
+
+    -  The second lighthouse screenshot is taken from the about us page. 
+    ![About-us lighthouse scores](documentation/about-us-page-lighthouse.png)
+    
+    - The third lighthouse screenshot is taken from the Quick tips page. 
+    ![Quicktips lighthouse scores](documentation/quick%20tips%20performance.png)
 
 ## Bugs
 
@@ -197,7 +219,7 @@ Performance scores are lowered on two of the three pages due to high quality ima
 **Fixed bugs**
 - sticky header achieved, the navigation bar and logo are present at all times. 
 - by clicking the logo you can return to home page.
-- Footer remains at the bottom of the website at all times. Prior to fixing this the footer would 'float' above the bottom of the page, as shown in the screenshot above.
+- Footer remains at the bottom of the website at all times. Prior to fixing this the footer would 'float' above the bottom of the page on the About-us page, and also shwon in the screenshot above belonging to the Quick tips page.
 - fixed bugs following validator testing and all pages are validated. 
 
 ## Deployment
