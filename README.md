@@ -128,7 +128,7 @@ The about us page consists of the same nav bar throughout page selected (marked 
 
 The quick tips page consists of the original navigation bar with the quick tips selected as seen throughout the website, it also contains a useful link that opens in new tab. as well as a self validating sign up form prompting users if any information is missing.
 
-![screenshot of quick tips section](documentation/quick-tips.png)
+![screenshot of quick tips section](documentation/updated-quicktips.png)
 
 The Footer consists of four social media links that when clicked open themselves in new tabs so that the user is not navigating away from the main site and does not need to rely on the backwards buttons located at the top left of the browser screen.
 
