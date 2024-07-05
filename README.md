@@ -45,7 +45,9 @@ TODO *move these to relevant places throughout*
 ![screenshot of footer](documentation/footer.png)
 ![screenshot of form submission](documentation/form-submission.png)
 ![screenshot of form validation](documentation/form-validator.png)
-![screenshots of wireframes created using balsamiq](documentation/wireframe-desktop.png)
+![screenshots of wireframes created for desktop](documentation/wireframes-desktop-3.png)
+![screenshots of wireframes created for tablet](documentation/wireframes-tablet-design.png)
+![screenshot of wireframes created for mobile](documentation/wireframes-mobile.png)
 ![screenshot of quick tips section](documentation/quick-tips.png)
 
 ## TODO Features
@@ -60,23 +62,56 @@ languages, HTML, CSS.
 
 **frameworks, libraries and programmes used. Balsamiq wireframes Google Fonts, amiresponsive, Favicon, TinyPNG, Chrome dev tools. Github to store files, Gitpod to edit code.**
 
-## Testing (turn into a table?)
+## Full Website Testing 
 
-I manually tested the Website on the Search Engines, Chrome, Firefox, Microsoft Edge. 
+| Website Feature   | Expected Outcome | Testing Performed | Result | Pass or Fail |
+| ----- | ----- | ----- | ----- | ----- |
+| `Site Navigation` |                  
+|  |  |  |  |  |
+| The Gardening Club Logo and Title | When clicked the user will return to home page | Clicked logo and title | Redirected to home page | Pass | 
+| Home Page Link | When clicked the user will return to home page | Clicked home link | Redirected to home page | Pass |
+| About Us Link | When clicked to about-us page | Clicked the about us link | Redirected to about-us page | Pass | 
+| Quick Tips Link | When clicked the user will get redirected to quick tips page | Clicked the quick-tips link | Redirected to quick-tips page | Pass |
+| `Footer` |
+|  |  |  |  |  |
+| Social Media Links | When clicked the user will get redirected to the social media sites that open in new tabs| Clicked the social media links | social media links open in a new tab | Pass |
+| `About-Us` |
+|  |  |  |  |  |  
+| Google Map Embed | Map should be responsive when interacted with | Clicked the map | Map zoomed in and out and responded as expected | Pass |
+| `Quick-tips` | 
+|  |  |  |  |  |  
+| Gardener's World Link | When clicked, user will be redirected to a new tab on the Gardener's World Website | Clicked the link | Link opened in a new tab | Pass |
+| Sign Up Form | Forms should not validate if left blank | Forms left blank | Form validator flagged up asking for input | Pass | 
+| Sign Up Form | Form should not validate if partially filled in | entered full name but no email address | Form validator flagged up asking for email address| Pass | 
+| Sign Up Form | Form should ask for a valid email address if no official email address is put in | Plain text put in | Form validator responded by asking for an official email address complete with '@' sign | Pass |
+| Sign Up Form | placeholder text must disappear when typing | typed in the form boxes | placeholder text disappeared | Pass |
 
-I also confirmed that the project is responsive and has a good consistent aesthetic across many standard screen sizes using the Chrome Devtools Device Toolbar. 
+- - -
 
-I tested and confirmed the navigation bar works and is easy to read including the return to home page throguh the use of The Gardening Club logo at the top of the page so that users can always return home. 
+Full Testing was performed on a range of personal devices and those belonging to friends and family:
 
-All links open in new windows to avoid losing the webpage when navigating to various external links. 
+- Mobile devices
+    - Samsung Galaxy A33
+-  Laptop
+    - Huawei Matebook
 
-I confirmed that the form works and ensured the placeholder text disappears when typing. 
-    
-I also confirmed that the form needed to be completed fully in order to be able to submit information through the use of the form validation. 
-    
-The submit button also works when all fields are filled out properly.
+I also confirmed that the project is responsive and has a good consistent aesthetic across many standard screen sizes using the Chrome Devtools Device Toolbar.  
 
-wave testing TODO **get screenshot**
+Testing was also performed on various Web Browsers: 
+
+- Chrome 
+- Firefox
+- Microsoft Edge
+
+- - -
+
+## Further Testing 
+
+## Wave Testing: 
+
+![accessibility test for main page](documentation/wave-test-1.png)
+![accessibility test for about-us page](documentation/wave-test-2.png)
+![accessibility test for quick-tips page](documentation/wave-test-3.png)
 
 ## Validator Testing
  - the form aspect on this website will not validate unless theres a valid full name and email address written in the form.
@@ -105,7 +140,7 @@ The lighthouse scores for Portfolio Project One, are below. The main focus for t
 ## Bugs
 
 **Unfixed bugs**
-- Hover button should change colour on the menu on devices over 762px on mouse hover the navigation buttons should change colour to highlight which page you wish to visit. 
+- Hover button should change colour on the menu on devices over 768px on mouse hover the navigation buttons should change colour to highlight which page you wish to visit. 
 
 **Fixed bugs**
 - sticky header achieved, the navigation bar and logo are present at all times. 
@@ -125,7 +160,17 @@ The lighthouse scores for Portfolio Project One, are below. The main focus for t
 - Once the master branch had been selected and the browser has reloaded itself, the page then provided the link to the live deployed version of the website.
     - The live link can be found here - https://beebeebethc.github.io/The-Gardening-Club/
 
-local development - Fork/Clone TODO **look into these as well as something else!**
+- For local develpoment, If you wish to explore behind the scenes of The Gardening Club, follow these steps below:
+    
+    - Go to the Repository that you wish to clone (https://github.com/BeeBeeBethC/The-Gardening-Club).
+    - Click on the green button with white text that reads 'code'.
+    - On the dropdown menu that appears once clicked, select the 'copy URL to clipboard' button (looks like two squares overlaying one another).
+    - Open your local coding package, (for myself it's Visual Studio Code).
+    - On Visual Studio Code, Click the 'Source Control' button from the left hand side of the screen (the one that can also be used to commit changes).
+    - Paste the repository URL into the top navigation bar of Visual Studio Code.
+    - Save the Repository to a localised folder where the repository will be stored on your computer.
+    - Click on select Repository location. 
+    - Let the Repository download and click 'open' when the onscreen prompt appears in the bottom right hand corner of the screen.
 
 ## Credits
 
@@ -135,7 +180,7 @@ local development - Fork/Clone TODO **look into these as well as something else!
 
 - TinyPNG used to optimise images for web browser purposes and to help support performance status of the website.
 
--cloudconvert to convert images to WEBP instead of JPG images.
+- Cloudconvert to convert images to WEBP instead of JPG images.
 
 - Chrome Devtools used to help identify visual bugs on a live preview.
 
@@ -156,5 +201,5 @@ local development - Fork/Clone TODO **look into these as well as something else!
 
 **Acknowledgements**
  - My family and friends who continually support me.
- - Luke Buchanan, my mentor for his support through Project 1.
- - Kera Cudmore who helped me navigate the starts of my Readme documentation.
+ - Luke Buchanan, my mentor for his support.
+ - Kera Cudmore who helped me navigate through the start of my README documentation.
