@@ -6,20 +6,12 @@ The Gardening Club is a club website that can be used to encourage people to joi
 
 The live link can be found here - https://beebeebethc.github.io/The-Gardening-Club/
 
-## Design and Accessibility
-- For the design choices on The Gardening Club website, I wanted to keep my colour scheme throughout and keep it consistent. In order to achieve this I made sure that I had a high contrast and that everything was visible and easy to read and navigate.
-- TODO insert colour pallete here
-- the colours I chose because although they are green, they are of a high contrast to one another. I also wanted a pop of colour to appear on the nav bar for the selected page so that users could easily identify which page they are currently on. 
-
-
-- TODO typography, why fonts selected and used accessibility (sans/sans-serif)
-
 - - -
 
 ## Contents
 
-* [Design and Accessibility](#design-and-accessibility)
 * [Contents](#contents)
+* [Design and Accessibility](#design-and-accessibility)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
@@ -34,10 +26,30 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 
 - - -
 
+## Design and Accessibility
+- For the design choices on The Gardening Club website, I wanted to keep my colour scheme throughout and keep it consistent. In order to achieve this I made sure that I had a high contrast and that everything was visible and easy to read and navigate.
+
+**Colour choices for this website**
+
+- The colours I chose for The Gardening Club website are as follows:
+    - The two contrasting shades of green represent just a couple of the different variations of green that can be found in gardens and hedgerows. 
+    
+    - As well as the greens used, I wanted to add a pop of colour to appear on the nav bar when a page was selected so that users could easily identify which page they are currently on.
+
+    ![colour pallete created using coolers](documentation/colour-pallete.png)
+
+**Typography**
+- For The Gardening Club website, I used two different but complimentary fonts. These are google fonts:
+    - 'Spectral MC', which is a Sans-serif font.
+    - 'PT Sans' which is a Sans font.
+
+
+    ![both font styles used in The Gardening Club website](documentation/typography.png)
+
 ## Screenshots
 
 TODO *move these to relevant places throughout*
-![picture of salad bed with kale, chard, squash and accompanying nasturtium](documentation/hero-image.png)
+
 ![nav bar with club logo included](documentation/nav-bar.png)
 ![screenshot of about us page](documentation/about-us-page.png)
 ![screenshot of footer](documentation/footer.png)
@@ -48,12 +60,21 @@ TODO *move these to relevant places throughout*
 ![screenshot of wireframes created for mobile](documentation/wireframes-mobile.png)
 ![screenshot of quick tips section](documentation/quick-tips.png)
 
-## TODO Features
+## Features
+- For this website, I wanted the structure of the webpage to roughly stay the same throughout with only minimal changes to design and layout.
 
+**
+![picture of salad bed with kale, chard, squash and accompanying nasturtium](documentation/hero-image.png)
 **general features, favicon, headings, navigation on each page this is what they are and what they contain**
-**future implementations, things you want to do but haven't had time or skills to implement.**
-**accessibility! screen readers, colour blindness. font choices. aria labels. alt text on images.**
 
+**accessibility! screen readers, colour blindness. font choices. aria labels. alt text on images.**
+- My reasoning for choosing these fonts are because:
+- Both fonts are classed as web friendly fonts with their default fonts resorting to Sans-Serif and Sans should the browsers be unable to identify them both.
+- The differences between them both aren't much however the Sans Serif font has a little added flare on the ends of the letters, perfect to use for something to stand out such as a logo but not be semi un-readable. 
+- The Sans font on the other hand, is very clean and I personally thought it looked fresh and easy to read when incorporated into the mian content of my design.
+- I also took these into account when designing the website because I wanted it to be as accessible as it possibly can be with users that are colour blind. In order to balance these two colours; knowingly choosing green, which is a colour that people with colour blindness struggle to distinguish between. Basing my website on green I knew I had to choose two colours that have a high contrast when compared to one another. 
+
+**future implementations, things you want to do but haven't had time or skills to implement.**
 ## Languages, Technologies, Frameworks and Libraries:
 
 **Languages**
