@@ -9,12 +9,10 @@ The live link can be found here - https://beebeebethc.github.io/The-Gardening-Cl
 ## Design and Accessibility
 - For the design choices on The Gardening Club website, I wanted to keep my colour scheme throughout and keep it consistent. In order to achieve this I made sure that I had a high contrast and that everything was visible and easy to read and navigate.
 - TODO insert colour pallete here
-- the colours I chose because although they are green, they are of a high contrast to one another. I also wanted a pop of colour to appear on the nav bar for the selected page and on mouse hover. 
+- the colours I chose because although they are green, they are of a high contrast to one another. I also wanted a pop of colour to appear on the nav bar for the selected page so that users could easily identify which page they are currently on. 
 
 
 - TODO typography, why fonts selected and used accessibility (sans/sans-serif)
-- TODO imagery *see screenshots* different aspects of the website design that are relevant features. 
-- TODO wireframes across different devices/different perspectives. Mobile, Tablet, Laptop and Desktop. *bring images across from canva.*
 
 - - -
 
@@ -56,11 +54,41 @@ TODO *move these to relevant places throughout*
 **future implementations, things you want to do but haven't had time or skills to implement.**
 **accessibility! screen readers, colour blindness. font choices. aria labels. alt text on images.**
 
-## Technologies used:
+## Languages, Technologies, Frameworks and Libraries:
 
-languages, HTML, CSS. 
+**Languages**
 
-**frameworks, libraries and programmes used. Balsamiq wireframes Google Fonts, amiresponsive, Favicon, TinyPNG, Chrome dev tools. Github to store files, Gitpod to edit code.**
+- HTML5 - HTML version 5 was used to create the core of the website.
+
+- CSS - CSS was used to style the website, implement fonts and to organise the layout.
+
+- Python 3 only used via the Visual Studio Code terminal to preview my site on a local http server.
+
+**Technologies, Frameworks and Libraries used** 
+
+- Gitpod - The IDE used for editing and pushing my website changes to Github.
+
+- Github - Github is used for storage of my website and to publish it online.
+
+- Favicon generator - used to generate a png logo that is situated in the tabs bar for my website. 
+
+- Google maps - Embed gained from Google maps inc.
+
+- Balsamiq wireframes used to generate an outline of what the website should look like. 
+
+- Google Fonts - used to confirm which fonts to be used. 
+
+- Google Chrome - Used for Testing the Website.
+
+- Am I responsive? - used to generate the image at the top of the document showing four different devices all at once. 
+
+- TinyPNG website - used to compress images in order to load the website faster.
+
+**Other Programmes used**
+
+- Github - Github is used to store The Gardening Club website alongside Gitpages to publish it online.
+- Canva - used for photo resizing. 
+
 
 ## Full Website Testing 
 
@@ -132,7 +160,9 @@ HTML pages threw up a few errors on initial testing, these were:
 
 **Lighthouse scoring**
 
-The lighthouse scores for Portfolio Project One, are below. The main focus for this project was every aspect of accessibility. 
+The lighthouse scores for Portfolio Project One, are below. The main focus for this project was every aspect of accessibility.
+
+Performance scores are lowered on two of the three pages due to high quality images used in the code. These images have been  compressed and converted.  
 ![Main-page lighthouse scores](documentation/main-page-performance.png)
 ![About-us lighthouse scores](documentation/about-us-performance.png)
 ![Quicktips lighthouse scores](documentation/quick%20tips%20performance.png)
@@ -140,12 +170,13 @@ The lighthouse scores for Portfolio Project One, are below. The main focus for t
 ## Bugs
 
 **Unfixed bugs**
-- Hover button should change colour on the menu on devices over 768px on mouse hover the navigation buttons should change colour to highlight which page you wish to visit. 
+- the footer of this page keeps 'floating' above the bottom of the page as seen in the screenshot below.
+![quick tips bug - footer floating above the bottom of the page](documentation/quick-tips-bug.png)
 
 **Fixed bugs**
 - sticky header achieved, the navigation bar and logo are present at all times. 
 - by clicking the logo you can return to home page.
-- Footer remains at the bottom of the website at all times. Prior to fixing this the footer would float above the bottom of the page.
+- Footer remains at the bottom of the website at all times. Prior to fixing this the footer would 'float' above the bottom of the page, as shown in the screenshot above.
 - fixed bugs following validator testing and all pages are validated. 
 
 ## Deployment
@@ -160,17 +191,32 @@ The lighthouse scores for Portfolio Project One, are below. The main focus for t
 - Once the master branch had been selected and the browser has reloaded itself, the page then provided the link to the live deployed version of the website.
     - The live link can be found here - https://beebeebethc.github.io/The-Gardening-Club/
 
-- For local develpoment, If you wish to explore behind the scenes of The Gardening Club, follow these steps below:
+- For local development, If you wish to explore behind the scenes of The Gardening Club, follow these steps below to create a clone:
     
-    - Go to the Repository that you wish to clone (https://github.com/BeeBeeBethC/The-Gardening-Club).
-    - Click on the green button with white text that reads 'code'.
-    - On the dropdown menu that appears once clicked, select the 'copy URL to clipboard' button (looks like two squares overlaying one another).
-    - Open your local coding package, (for myself it's Visual Studio Code).
-    - On Visual Studio Code, Click the 'Source Control' button from the left hand side of the screen (the one that can also be used to commit changes).
-    - Paste the repository URL into the top navigation bar of Visual Studio Code.
-    - Save the Repository to a localised folder where the repository will be stored on your computer.
-    - Click on select Repository location. 
-    - Let the Repository download and click 'open' when the onscreen prompt appears in the bottom right hand corner of the screen.
+    1. Go to the Repository that you wish to clone (https://github.com/BeeBeeBethC/The-Gardening-Club).
+    
+    2. Click on the green button with white text that reads 'code'.
+    
+    3. On the dropdown menu that appears once clicked, select the 'copy URL to clipboard' button (looks like two squares overlaying one another).
+    
+    4. Open your code editor, (for myself it's Visual Studio Code). On Visual Studio Code, Click the 'Source Control' button from the left hand side of the screen (the one that can also be used to commit changes).
+        - 4a. On alternative code editors,open the terminal and change the working directory to the location of your cloned repository. 
+    5. Paste the repository URL into the top navigation bar of Visual Studio Code.
+        - 5a. On alternative code editors, type 'git clone' into the terminal and paste the link of the URL
+    
+    6. Save the Repository to a localised folder where the repository will be stored on your computer.
+    
+    7. Click on select Repository location. 
+    
+    8. Let the Repository download and click 'open' when the onscreen prompt appears in the bottom right hand corner of the screen.
+
+- How to create a fork of The Gardening Club:
+
+    1. Sign up or login to Github.
+    
+    2. Go to the repository for The Gardening club (https://github.com/BeeBeeBethC/The-Gardening-Club)
+    
+    3. Click the fork button on the top right hand side of the screen.
 
 ## Credits
 
@@ -183,6 +229,8 @@ The lighthouse scores for Portfolio Project One, are below. The main focus for t
 - Cloudconvert to convert images to WEBP instead of JPG images.
 
 - Chrome Devtools used to help identify visual bugs on a live preview.
+
+- Kera Cudmore's Webinar and supporting content of 'Creating your first README' was used as a guide to gain a better understanding of how to set up my own README documentation.  
 
 - Flexbox support gained from:
     - Flexbox Froggy - https://flexboxfroggy.com

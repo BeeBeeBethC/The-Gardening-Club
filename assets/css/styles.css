@@ -85,7 +85,7 @@ header a {
 
 #menu button:hover {
     text-decoration: underline;
-    color: rgb(248, 158, 235);
+    color: #f89eeb;
 }
 
 #menu > li {
@@ -200,7 +200,7 @@ hr {
     display: flex;
     list-style-type: none;
     background-color: #333E1D;
-    color: rgb(235, 254, 207);
+    color: #ebfecf;
     text-align: center;
     padding: 15px 0;
     justify-content: space-evenly;
